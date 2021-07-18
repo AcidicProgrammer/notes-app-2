@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class = "container">
+<labe>Email: </labe><input type = "email" placeholder = "Email" id = "email" required> <br>
+<labe>First Name: </labe><input type = "text" placeholder = "First name" id = "fname" required> <br> 
+<labe>Password: </labe><input type = "password" placeholder = "Password" id = "password" required>
+<input type = "button" value = "Register" onclick = "register()" class = "btn">
+<br><br>
+<a href = "login.html"><p style="text-align:center" class = "link">Already have an account? Login!</p></a>
+</div>
+
+<script>
+  // function register() {
+  //   let email = document.getElementById("email").value.toLowerCase();
+  //   let first_name = document.getElementById("fname").value;
+  //   let password = document.getElementById("password").value;
+    
+  //   if(email == "" || first_name == "" || password == "") {
+  //     alert("Please fill all fields.");
+  //   }
+  //   else if(email == localStorage.getItem("Email") && first_name == localStorage.getItem("First Name") && password == localStorage.getItem("Password")) {
+  //     alert("You've already made an account with these credentials");
+
+  //     this.email.value = "";
+  //     this.first_name.value = "";
+  //     this.password.value = "";
+  //   }
+  //   else {
+  //     location.href = "index.html";
+  //     localStorage.setItem("Email", email);
+  //     localStorage.setItem("First Name", first_name);
+  //     localStorage.setItem("Password", password);
+
+  //     alert("Thank you for making an account, " + localStorage.getItem("First Name") + "!");
+  //   }
+
+  // }  
+</script>
+
+<script src = "script.js"></script>
+</body>
+</html>

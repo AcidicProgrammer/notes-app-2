@@ -1,0 +1,81 @@
+body {
+    overflow-x: hidden;
+    margin: 10px;
+}
+
+.linkbox {
+    width: 20%;
+    height: 100px;
+    /* background-color: red; */
+    border: 2px solid black;
+    padding: 10px;
+    align-items: center;
+    display: none;
+}
+
+input[type="text"] {
+    width: 180px;
+    outline: none;
+    margin: 5px;
+}
+
+input[type="submit"] {
+    outline: none;
+    margin-bottom: 5px;
+    margin-left: 55%;     
+    margin-top: 4%;       
+}
+
+#fname, #email, #password, #new_password1, #new_password2 {
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.container {
+  width: 500px;
+  clear: both;
+}
+
+.btn {
+    width: 100%;
+    margin-left: 2.5%;
+    padding: 1%;
+    font-size: 18px;
+    outline: none;
+}
+
+a {
+    /* margin-left: 30%; */
+}
+
+.link {
+    margin: -6px;
+    font-size: 15px;
+}
+
+.notes {
+    /* margin-top: 10%; */
+    width: 98.6%;
+    border: 2px solid black;
+    height: auto;
+    padding: .5%;
+    word-wrap: break-word;
+}
+
+.contents input[type="button"] {
+  margin-top: 5%;
+  margin-bottom: 0%;
+  font-size: 15px;
+  padding: .5%;
+  width: 2.5%;
+}
+
+input[type="number"] {
+    width: 6.5%;
+    height: 25px;
+    font-size: 16px;
+}

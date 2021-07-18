@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <input type = "button" value = "Create Link" onclick = "openBox()">
+
+        <div class = "linkbox">
+            <input type = "text" placeholder = "Insert text here..." id = "text">
+            <input type = "text" placeholder = "Insert link here..." id = "link">
+            <br>
+            <input type = "submit" value = "Create" onclick = "create()">
+        </div>
+
+        <input type = "button" value = "Save Notes" onclick = "save()">
+
+        <input type = "button" value = "Load Notes" onclick = "loadNotes()">
+
+        <input type = "button" value = "Delete Notes" onclick = "DeleteNotes()">
+
+        <input type = "button" value = "Logout" onclick = "logout()">
+
+        <!-- <input type = "button" value = "Check Saved Notes" onclick = "checkList()">
+        <div class = "list"></div> -->
+
+        <!-- <h3 class = "placeholder">Begin writing your notes:</h3> -->
+
+       <div class = "contents">
+        <input type = "button" value = "I" onclick = "document.execCommand('italic', false, null)">
+        <input type = "button" value = "B" onclick = "document.execCommand('bold', false, null)">
+        <input type = "button" value = "S" onclick = "document.execCommand('strikethrough', false, null)">
+        <input type = "number" placeholder = "Font Size" max="10" min="50" id = "fontSize">
+        <div class = "notes" contenteditable = "true" id = "notes"></div>
+       </div>
+      
+       
+
+        <script src = "script.js"></script>
+    </body>
+</html>

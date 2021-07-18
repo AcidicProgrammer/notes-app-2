@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class = "container">
+<labe>First Name: </labe><input type = "text" placeholder = "First name" id = "fname" required> <br> 
+<labe>Password: </labe><input type = "password" placeholder = "Password" id = "password" required>
+<input type = "button" value = "Login" onclick = "login()" class = "btn">
+<br><br>
+
+<a href = "register.html"><p style="text-align:center" class = "link">New? Register for an account!</p></a> <br>
+<a href = "forgotpassword.html"><p style="text-align:center" class = "link">Forgot password?</p></a>
+</div>
+
+<script>
+//   function login() {
+//     let first_name = document.getElementById("fname").value;
+//     let password = document.getElementById("password").value;
+
+//       localStorage.getItem("First Name", first_name);
+//       localStorage.getItem("Password", password);
+
+
+//     if(first_name == localStorage.getItem("First Name") && password == localStorage.getItem("Password")) {
+//         location.href = "index.html";
+//         alert('Welcome, ' + localStorage.getItem("First Name"));
+//     }
+//     else if(first_name !== localStorage.getItem("First Name")) {
+//         alert("Incorrect name");
+//     }
+//     else if(password !== localStorage.getItem("Password")) {
+//         alert("Incorrect password");
+//     }
+//     else {
+//         alert("Incorrect login credentials. Please try again.");
+//     }
+//  }
+</script>
+
+<script src = "script.js"></script>
+
+</body>
+</html>
+
+
+
